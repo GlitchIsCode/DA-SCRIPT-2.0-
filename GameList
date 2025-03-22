@@ -1,18 +1,70 @@
-local Games = {
-    [2753915549] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Blox%20Fruit.lua", -- Blox Fruit Sea 1
-    [4442272183] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Blox%20Fruit.lua", -- Blox Fruit Sea 2
-    [7449423635] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Blox%20Fruit.lua", -- Blox Fruit Sea 3
-    [3623096087] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Muscle%20Legends.lua", -- Muscle Legends
-    [8737899170] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua",  -- PS99 World 1
-    [16498369169] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua",  -- PS99 World 2
-    [17503543197] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua",  -- PS99 World 3
-    [10449761463] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/The%20Strongest%20Battleground.lua",  -- The Strongest Battlegrounds
-    [18901165922] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Pet%20GO.lua", -- Pet GO
-    [16732694052] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Fisch.lua", -- Fisch
-    [116495829188952] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Dead%20Rails.lua", -- Dead Rails
-    [70876832253163] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Dead%20Rails.lua", -- Dead Rails
-    [125723653259639] = "https://raw.githubusercontent.com/triquqd717/main/refs/heads/main/other/DrillDiggingSimulator.lua", -- Drill Digging Simulator
-    [87039211657390] = "https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Arise%20Crossover.lua", -- Arise Crossover
-}
+    local Games = {
+    [2753915549] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Blox%20Fruit.lua", name = "Blox Fruit Sea 1"},
+    [4442272183] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Blox%20Fruit.lua", name = "Blox Fruit Sea 2"},
+    [7449423635] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Blox%20Fruit.lua", name = "Blox Fruit Sea 3"},
+    [3623096087] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Muscle%20Legends.lua", name = "Muscle Legends"},
+    [8737899170] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua", name = "PS99 World 1"},
+    [16498369169] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua", name = "PS99 World 2"},
+    [17503543197] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/PS99.lua", name = "PS99 World 3"},
+    [10449761463] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/The%20Strongest%20Battleground.lua", name = "The Strongest Battlegrounds"},
+    [18901165922] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Pet%20GO.lua", name = "Pet GO"},
+    [16732694052] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Fisch.lua", name = "Fisch"},
+    [116495829188952] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Dead%20Rails.lua", name = "Dead Rails"},
+    [70876832253163] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Dead%20Rails.lua", name = "Dead Rails"},
+    [125723653259639] = {url = "https://raw.githubusercontent.com/triquqd717/main/refs/heads/main/other/DrillDiggingSimulator.lua", name = "Drill Digging Simulator"},
+    [87039211657390] = {url = "https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Arise%20Crossover.lua", name = "Arise Crossover"}, [14204959937] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/undertale-multiversal-calamity-hack/main/the%20hack", name = "Undertale Multiversal Calamity Hack"},
+    [6155695903] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/q/main/undertale%20judgment%20simulator%20script", name = "Undertale Judgment Simulator Script"},
+    [3160283276] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/errmmmm/main/SANS%20MULTIVERSAL%20BATTLES%20HACK%20i%20mean%20sans%20multiverse%20my%20fault", name = "Sans Multiversal Battles Hack"},
+    [3169713645] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/sans-multiverse/main/weak%20fucks", name = "Sans Multiverse Weak Fucks"},
+    [3229576096] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/sans-multiverse/main/weak%20fucks", name = "Sans Multiverse Weak Fucks"},
+    [3497861914] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/sans-multiverse/main/weak%20fucks", name = "Sans Multiverse Weak Fucks"},
+    [3481977864] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/sans-multiverse/main/weak%20fucks", name = "Sans Multiverse Weak Fucks"},
+    [4235112718] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/sans-multiverse/main/weak%20fucks", name = "Sans Multiverse Weak Fucks"},
+    [4473825494] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/sansmultiverse/main/fatal%20error", name = "Sans Multiverse Fatal Error"},
+    [4620729627] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/smb1/main/fc", name = "SMB1"},
+    [11869404361] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/soul-ops-destroyer/main/gaming", name = "Soul Ops Destroyer"},
+    [4597941024] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/undertale-multiversal-destruction-main/main/fc", name = "Undertale Multiversal Destruction"},
+    [4662925491] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/bad-times/main/bad", name = "Bad Time Sans"},
+    [4674040425] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/insanity-elmo/main/i%20hate%20having%20to%20upload%20these%20seperately", name = "Insane AF Elmo"},
+    [4842106542] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/older-elmo/main/fuk", name = "Old Insane AF Elmo"},
+    [5061251807] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/krtmiy/main/drakeleaks", name = "DustKermit"},
+    [5113408116] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/elmos-ashes/main/ihaveadrugproblem", name = "Dust Elmo"},
+    [4898918316] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/ultra/main/comedy", name = "Ultra Boy"},
+    [6913960180] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/crazy-multiverse-timeline/main/no", name = "Crazy Multiverse Timeline"},
+    [3224832964] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/gaster-blaster-battles/main/fc", name = "Gaster Blaster Battles"},
+    [9634672598] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/final-multiversal-world/main/i%20will%20not%20name%20my%20file", name = "Final Multiversal World"},
+    [10120049617] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/final-multiversal-world/main/i%20will%20not%20name%20my%20file", name = "Final Multiversal World"},
+    [9924968700] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/final-multiversal-world/main/i%20will%20not%20name%20my%20file", name = "Final Multiversal World"},
+    [10119893020] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/final-multiversal-world/main/i%20will%20not%20name%20my%20file", name = "Final Multiversal World"},
+    [9974200618] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/final-multiversal-world/main/i%20will%20not%20name%20my%20file", name = "Final Multiversal World"},
+    [5092283807] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/original-soul-ops/main/soul%20ops%20omg", name = "Original Soul Ops"},
+    [5783628372] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/soulops/refs/heads/main/wrath", name = "Wrath (Soul Ops Extension)"},
+    [15654696472] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/god-ops/main/trash%20game", name = "God Ops"},
+    [11854016673] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/funny-boss-rush/main/lazy%20script", name = "Funny Boss Rush"},
+    [15356481651] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/funny-boss-rush/main/lazy%20script", name = "Funny Boss Rush"},
+    [15858731229] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/funny-boss-rush/main/lazy%20script", name = "Funny Boss Rush"},
+    [14692571324] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/funny-boss-rush/main/lazy%20script", name = "Funny Boss Rush"},
+    [5690862508] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/sans-multiversal-the-second-coming/main/couldnt%20come%20up%20with%20many%20features", name = "Sans Multiversal: The Second Coming"},
+    [8592703594] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/unexplained-anomalies/main/among%20us", name = "Unexplained Anomalies"},
+    [10018283161] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/infected-/main/multivese", name = "Infected Multiverse 2"},
+    [5190818929] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/battle/main/for%20the%20multiverse", name = "Battle for the Multiverse"},
+    [6416665831] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/untitled/main/battles", name = "Untitled Sans Battles"},
+    [11593829265] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/an-untitled-/main/pest", name = "Remade Pest"},
+    [12238191480] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/abtkl/main/extremely%20halal%20mode", name = "Undertale AUS Fight"},
+    [10967866439] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/unyiylrf-something-batltles/main/fc", name = "Untitled Sans Battles"},
+    [10653151312] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/soul-ops/main/rushed%20bosses%20(extended%20as%20well)", name = "Soul Ops Boss Rush Extended"},
+    [13754776367] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/Remnants/refs/heads/main/of%20a%20ruined%20multiverse", name = "Remnants of a Ruined Multiverse"},
+    [16518202551] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/a-bit-op-soul-ops-script/main/no%20anticheat%20game%20lol", name = "A Bit Balanced Soul Ops"},
+    [113833787055952] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/jackos-sans-multiverse/refs/heads/main/main", name = "Jackos Sans Multiverse"},
+    [74155739636720] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/underverse/refs/heads/main/massacre", name = "Underverse Massacre"},
+    [95572613341650] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/final-error/refs/heads/main/sans%20multiverse", name = "Final Error"},
+    [95499536588448] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/evolution-dust/refs/heads/main/sans%20multiverse", name = "Evolution Dust"},
+    [16615498649] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/reincarnation/refs/heads/main/of%20sans%20multiverse", name = "Sans Multiverse Reincarnated"},
+    [124989915180294] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/chaotic/refs/heads/main/utmm", name = "Chaos UTMM"},
+    [13118242074] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/second-ops/refs/heads/main/very-lazy-script", name = "Soul Ops 2"},
+    [4994661268] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/ujd/refs/heads/main/main", name = "UJD"},
+    [7150950346] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/singleplayer/refs/heads/main/ujd", name = "UJD Singleplayer"},
+    [5689878965] = {url = "https://raw.githubusercontent.com/UnstableScriptPoster/reaper/refs/heads/main/ujd", name = "UJD RC"},
+    }
 
-return Games
+  return Games
